@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><title>Results for {{ product }}</title></head>
+<body>
+  <h1>Results for "{{ product }}"</h1>
+  <ul>
+    {% for item in results %}
+    <li><strong>{{ item.site }}</strong>: {{ item.price }} – <a href="{{ item.url }}" target="_blank">View</a></li>
+    {% endfor %}
+  </ul>
+  <a href="/">Search again</a>
+</body>
+</html>
