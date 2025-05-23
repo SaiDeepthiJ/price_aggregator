@@ -23,8 +23,4 @@ docker run -p 5000:5000 product-aggregator
 
 #Using docker compose run 
 docker-compose up --build
-[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C without docker compose[B[B[B[B[B[B
-
-[A
-[A[D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 
