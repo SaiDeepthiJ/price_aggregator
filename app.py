@@ -10,5 +10,6 @@ def index():
         results = get_mock_prices(query)
         return render_template("results.html", product=query, results=results)
     return render_template("base.html")
+    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
